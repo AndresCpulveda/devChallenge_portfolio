@@ -169,7 +169,7 @@ ul {
     height: auto;
 }
 .slides figure figcaption {
-    font-size:1.5vh;
+    font-size: 1.5vh;
     color: #828282;
     text-align: center;
 }
@@ -325,6 +325,9 @@ ul {
         height: 80%;
         margin: 0 30vw;
     }
+    .slides .slide {
+        transition: .5s;
+    }    
     #radio2:checked ~ .slide1 {
         margin-left: -19%;
     }
